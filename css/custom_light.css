@@ -1,3 +1,5 @@
+<link href='http://fonts.googleapis.com/css?family=Source+Code+Pro' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
 <style>
 /*
 Rob's custom notebook CSS
@@ -15,25 +17,28 @@ div.CodeMirror {
 
 /*Selectors*/
 
-div.cell.selected {
+div.code_cell.selected {
     border: none;
+    border-radius: 2px;
+    box-shadow: 0px 0px 8px #888888;
 }
 
 div.input_area {
+    margin-left: 5px;
     border-radius: 2px;
-    font-size: 20px !important;
+    font-size: 16px !important;
 }
 
 div.prompt {
     display: none;
 }
 
-
 div#maintoolbar, div#header {display: none !important;}
 
 div#notebook {border-top: none;}
 
 .cm-s-ipython {
+  border-radius: 2px;
   background-color: #fdf6e3;
   color: #657b83;
 }
