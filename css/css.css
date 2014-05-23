@@ -34,20 +34,17 @@ body {
     font-weight: bold:
 }
 
-div.CodeMirror, div.output_area pre, code, div.prompt {
-  font-family: "Source Code Pro", source-code-pro, "Anonymous Pro", Consolas, Inconsolata, monospace !important;
-}
 
-  .rendered_html table, .rendered_html th, .rendered_html tr, .rendered_html td {
-    border: 1px #4f5b66 solid;
-    white-space: nowrap;
-  }
-  .rendered_html thead {
-    background-color: #43515c;
-    color: white;
-  }
-  .rendered_html th {font-weight: bold;}
-  table.dataframe tr {border: 1px #4f5b66;}
+.rendered_html table, .rendered_html th, .rendered_html tr, .rendered_html td {
+border: 1px #4f5b66 solid;
+white-space: nowrap;
+}
+.rendered_html thead {
+background-color: #43515c;
+color: white;
+}
+.rendered_html th {font-weight: bold;}
+table.dataframe tr {border: 1px #4f5b66;}
 
 /* GLOBALS */
 body {background-color: #2b303b;}
