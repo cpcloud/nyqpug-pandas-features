@@ -1,0 +1,38 @@
+{
+  "intervals": [
+    {
+      "pivots": "Jane Smith",
+      "series": [
+        {
+          "interval_id": 0,
+          "p_value": 1
+        },
+        {
+          "interval_id": 1,
+          "p_value": 1.1162791357932633e-8
+        },
+        {
+          "interval_id": 2,
+          "p_value": 0.0000028675012051504467
+        }
+      ]
+    },
+    {
+      "pivots": "Bob Smith",
+      "series": [
+        {
+          "interval_id": 0,
+          "p_value": 1
+        },
+        {
+          "interval_id": 1,
+          "p_value": 1.1162791357932633e-8
+        },
+        {
+          "interval_id": 2,
+          "p_value": 0.0000028675012051504467
+        }
+      ]
+    }
+  ]
+}
