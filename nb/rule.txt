@@ -1,0 +1,3 @@
+[{pivots: .intervals[].pivots, 
+  interval_id: .intervals[].series[].interval_id,
+  p_value: .intervals[].series[].p_value}] | unique
